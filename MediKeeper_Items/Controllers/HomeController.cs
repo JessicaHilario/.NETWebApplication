@@ -15,7 +15,7 @@ namespace MediKeeper_Items.Controllers
     public class HomeController : Controller
     {
         static string connStr =
-            "server=medikeeper-project.ccgkrwo73nam.us-east-2.rds.amazonaws.com;user=admin;database=items;port=3306;password=Aaqwertyuiop1";
+            "server=medikeeper-project.ccgkrwo73nam.us-east-2.rds.amazonaws.com;user=admin;database=items;port=3306;password=";
         MySqlConnection conn = new MySqlConnection(connStr);
         
         public ActionResult Index()
