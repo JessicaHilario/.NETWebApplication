@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "View Items";
+}
+<div class="jumbotron" style="padding-bottom: 15px">
+    <h2>Items</h2>
+    <p class="lead">@Html.Raw(ViewBag.htmlOrig)</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4" style="margin-left: 15%">
+        <h2>Max Prices of Each Group</h2>
+        <p class="btn btn-default">@Html.ActionLink("Max Prices", "itemsPrice", "Home")</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Find Max Price of Item</h2>
+        <p class="btn btn-default">@Html.ActionLink("Item Max", "itemPrice", "Home")</p>
+    </div>
+</div>

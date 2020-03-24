@@ -1,0 +1,29 @@
+﻿﻿@{
+    ViewBag.Title = "Price For An Item";
+}
+<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.Message</h3>
+
+ <div class="jumbotron">
+     <p class="lead">@Html.Raw(ViewBag.htmlOrig)</p>
+     
+     <form method="post"class="itemForm">
+         <h3 style="margin-left: 30%">What Item Do You Want The Max Price For?</h3>
+         <input type="text" name="itemName" style="margin-left: 40%"/>
+         <input type="submit" value="Submit" class="submit" style="text-align: center"/>
+     </form>
+     <div class="messageContainer" style="text-align: center">
+         <p>@ViewBag.cost</p>
+     </div>
+ </div>
+
+ <div class="row">
+     <div class="col-md-4" style="margin-left: 15%">
+              <h2>See All Items</h2>
+         <p class="btn btn-default">@Html.ActionLink("All Items", "Index", "Home")</p>
+         </div>
+     <div class="col-md-4">
+         <h2>Max Prices of Each Group</h2>
+         <p class="btn btn-default">@Html.ActionLink("Max Prices", "itemsPrice", "Home")</p>
+     </div>
+ </div>
