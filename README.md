@@ -3,7 +3,7 @@
 
 .NET Web Application hosted on AWS LightSail instance using AWS RDS MySQL to keep track of items and return the max cost of each item stored by name. 
 
-[**Link**](http://http://3.133.119.21/)
+[**Link**](http://3.133.119.21/)
 
 Features
 --------
