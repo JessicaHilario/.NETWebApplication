@@ -22,3 +22,31 @@ select,
 textarea {
     max-width: 280px;
 }
+.butNav {
+    background-color: aqua;
+    width: 50px;
+}
+
+.but {
+    cursor: pointer;
+}
+
+.navbar-design {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+.itemForm {
+    text-align: center;
+    padding-bottom: 35px;
+}
+.inputBox {
+    margin: auto;
+}
+.submitButton {
+    align-self: inherit;
+}
+.maxItemForm {
+    text-align: center;
+}
